@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+           background-color: blanchedalmond;
+            color: #0f0c0e;
+        
+        }
+
+        header {
+            background-color: antiquewhite;
+           color: cadetblue;
+            padding: 10px 0;
+          font-family: fantasy;
+          font-size: 30px;
+        }
+
+        nav {
+            background-color: cadetblue;
+          font-family: fantasy;
+          font-size: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: coral;
+            padding: 14px 20px;
+            text-decoration: none;
+          text-align: center;  
+          font-family: monospace;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            align-content: center;
+        }
+
+        iframe {
+            width: 20%;
+            height: 70%;
+            border: 2px solid #ccc;
+            margin-top: 10px;
+            align-items: center;
+        }
+
+        img.map-image {
+            width: 100%;
+            height: 50%;
+            border: 2px solid #ddd;
+            align-content: center;
+        }
+
+        .emoji-list {
+            font-size: 20px;
+        }
+
+        .emoji-list li {
+            list-style: none;
+        }
+
+        .favorite-emoji {
+            font-size: 30px;
+        }
+
+        h2{
+            text-align: center;
+            font-family: serif;
+        }
+        p{
+            font-family: cursive;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vritch and Ochea's Web Portfolio!</h1>
+</header>
+
+<center><nav>
+    <a href="#about">About</a>
+    <a href="#study">Study</a>
+    <a href="#contact">Contact</a>
+</center></nav>
+
+<main>
+    <section id="about">
+        <center><h2>About Us</h2>
+        <p>Welcome! Thank you for visiting our website, by toplok the video below you can learn and  adventure more about Programming.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XZrckLYqdys?si=PMAMIOMVHpwWce3F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </center>
+    </section>
+
+    <section id="study">
+        <center> <h2>University Location</h2>
+        <p>Below is a Google Map showing the location of my university:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591781199248!2d123.89344197401086!3d10.29443816790119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99bfcc60d650d%3A0x5ee73506c68dd233!2sCebu%20Eastern%20College%20Cebu%20city!5e0!3m2!1sen!2sph!4v1742097064239!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </center>
+    </section>
+    
+   <section id="image-map">
+        <h2>Resources</h2>
+        <img src="your-image.jpg" alt="Clickable Image" usemap="#resource-map" width="500">
+        <map name="resource-map">
+            <area shape="rect" coords="34,44,270,350" href="https://www.w3schools.com" alt="W3Schools">
+            <area shape="rect" coords="290,172,333,250" href="https://developer .mozilla.org" alt="MDN">
+        </map>
+    </section>
+
+
+
+    <section class="social-links" id="Contact">
+        <h2>Contact</h2>
+        <p>follow our social media Acc and learn for more about Programing </p>
+    </section> <li class="favorite-emoji">&#128573;</li>
+   
+
+
+    <section id="symbols">
+        <h2>Symbol Entities</h2>
+        <p>This paragraph contains some symbols: &copy; &reg; &euro; &hearts; &spades;.</p>
+    </section>
+    <section id="emojis">
+        <center>
+        <h2>Our Favorite Emojis</h2>
+        <ul class="emoji-list">
+            <li class="favorite-emoji">&#128512; Happy Face</li>
+            <li class="favorite-emoji">&#128171; Heart Eyes</li>
+            <li class="favorite-emoji">&#128640; SpaceShip</li>
+            <li class="favorite-emoji">&#128171; thinking</li>
+        </ul>
+    </center>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; vritch and ochea's Blog 2025. All rights reserved.</p>
+    <p>&copy; and visit our facebook acc if you have any question about our website.</p>
+    <button><p>&copy; @John Vritchel Abella.</p> </button> <button><p>&copy; @Hyezo Shyene Ochea.</p></button>
+
+</footer>
+
+</body>
+</html>
